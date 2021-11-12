@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>hugo-blog/posts/</loc><lastmod>2021-11-10T17:24:22&#43;08:00</lastmod></url><url>
-            <loc>hugo-blog/</loc><lastmod>2021-11-10T17:24:22&#43;08:00</lastmod></url><url>
-            <loc>hugo-blog/posts/my-first-post/</loc><lastmod>2021-11-10T17:24:22&#43;08:00</lastmod></url><url>
-            <loc>hugo-blog/categories/</loc></url><url>
-            <loc>hugo-blog/tags/</loc></url></urlset>
+            <loc>/hugo-blog/posts/</loc><lastmod>2021-11-10T17:24:22&#43;08:00</lastmod></url><url>
+            <loc>/hugo-blog/</loc><lastmod>2021-11-10T17:24:22&#43;08:00</lastmod></url><url>
+            <loc>/hugo-blog/posts/my-first-post/</loc><lastmod>2021-11-10T17:24:22&#43;08:00</lastmod></url><url>
+            <loc>/hugo-blog/categories/</loc></url><url>
+            <loc>/hugo-blog/tags/</loc></url></urlset>

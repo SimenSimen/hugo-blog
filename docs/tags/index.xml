@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - tag - SIMEN 邁向宇宙</title>
-        <link>hugo-blog/tags/</link>
+        <link>/hugo-blog/tags/</link>
         <description>Tags - tag - SIMEN 邁向宇宙</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><atom:link href="hugo-blog/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><atom:link href="/hugo-blog/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>

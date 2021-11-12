@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title> - SIMEN 邁向宇宙</title>
-        <link>hugo-blog/posts/</link>
+        <link>/hugo-blog/posts/</link>
         <description> | SIMEN 邁向宇宙</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Wed, 10 Nov 2021 17:24:22 &#43;0800</lastBuildDate><atom:link href="hugo-blog/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Wed, 10 Nov 2021 17:24:22 &#43;0800</lastBuildDate><atom:link href="/hugo-blog/posts/" rel="self" type="application/rss+xml" /><item>
     <title>從0到100，自己架設部落格！</title>
-    <link>hugo-blog/posts/my-first-post/</link>
+    <link>/hugo-blog/posts/my-first-post/</link>
     <pubDate>Wed, 10 Nov 2021 17:24:22 &#43;0800</pubDate><author>
         <name>Simen</name>
-    </author><guid>hugo-blog/posts/my-first-post/</guid>
+    </author><guid>/hugo-blog/posts/my-first-post/</guid>
     <description><![CDATA[前言 為什麼會想開始寫部落格呢？自從開始發現自己上了年紀，東西丟三落四之後。就想好好找個地方，把東西存起來，等到需要用的時候再回來翻。 期間找過]]></description>
 </item></channel>
 </rss>

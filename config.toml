@@ -1,12 +1,15 @@
 baseURL = "/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-tw"
+
 # 网站语言, 仅在这里 CN 大写
 languageCode = "zh-TW"
+
 # 是否包括中日韩文字
 hasCJKLanguage = true
+
 # 网站标题
-title = "城市程式宅"
+title = "SIMEN 城市"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
@@ -29,7 +32,7 @@ title = ""
 weight = 1
 [[menu.main]]
 identifier = "tags"
-name = "标签"
+name = "標籤"
 post = ""
 pre = ""
 title = ""
@@ -37,7 +40,7 @@ url = "/tags/"
 weight = 2
 [[menu.main]]
 identifier = "categories"
-name = "分类"
+name = "分類"
 post = ""
 pre = ""
 title = ""

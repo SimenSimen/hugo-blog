@@ -1,9 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title> - SIMEN 邁向宇宙</title>
+        <title> - SIMEN 城市</title>
         <link>/posts/</link>
-        <description> | SIMEN 邁向宇宙</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Wed, 10 Nov 2021 17:24:22 &#43;0800</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+        <description> | SIMEN 城市</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Thu, 18 Nov 2021 15:40:26 &#43;0800</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>將部落格部署 至 Github Page</title>
+    <link>/posts/deploy-to-github-page/</link>
+    <pubDate>Thu, 18 Nov 2021 15:40:26 &#43;0800</pubDate><author>
+        <name>Simen</name>
+    </author><guid>/posts/deploy-to-github-page/</guid>
+    <description><![CDATA[前言 前篇 ＂自己架設部落格＂，已經能建立起我們自己的部落格網站了，但僅止於個人的電腦內。建立部落格我們當然希望讓其他人也看到，所以我們今天要將]]></description>
+</item><item>
     <title>從0到100，自己架設部落格！</title>
     <link>/posts/my-first-post/</link>
     <pubDate>Wed, 10 Nov 2021 17:24:22 &#43;0800</pubDate><author>

@@ -3,9 +3,15 @@
         <title>SIMEN 城市</title>
         <link>/</link>
         <description>SIMEN 城市</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Thu, 18 Nov 2021 15:40:26 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Wed, 01 Dec 2021 10:51:00 &#43;0800</lastBuildDate>
             <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Facebook 留言功能外掛</title>
+    <link>/posts/add-message-plugin/</link>
+    <pubDate>Wed, 01 Dec 2021 10:51:00 &#43;0800</pubDate><author>
+                    <name>Simen</name><uri>https://alice.example.com</uri></author><guid>/posts/add-message-plugin/</guid>
+    <description><![CDATA[前言 上回已經把部落格架起來了。為了能跟訪客互動，這次我希望能添加留言的功能！所以今天要來研究如何將留言功能加入部落格。 外掛選用 Hugo 官網推薦的是]]></description>
+</item><item>
     <title>將部落格部署 至 Github Page</title>
     <link>/posts/deploy-to-github-page/</link>
     <pubDate>Thu, 18 Nov 2021 15:40:26 &#43;0800</pubDate><author>

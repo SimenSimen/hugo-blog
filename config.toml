@@ -60,6 +60,13 @@ gravatarEmail = ""
 # 主页显示头像的 URL
 # avatarURL = "/images/18+.png"
 
+# DoIt 更改 | 0.2.0 文章页面的分享信息设置
+[params.page.share]
+
+Facebook = true
+Twitter = true
+enable = true
+
 [params.social]
 [params.social.Mastodon]
 # 排列图标时的权重 (权重越大, 图标的位置越靠后)
@@ -69,3 +76,13 @@ gravatarEmail = ""
 # # 你的社交链接的前缀
 # prefix = "https://mastodon.social/"
 # # 当鼠标停留在图标上时的提示内容
+
+# DoIt 更改 | 0.2.0 评论系统设置
+[params.page.comment]
+enable = true
+
+[params.page.comment.disqus]
+# DoIt 新增 | 0.1.1
+enable = true
+# Disqus 的 shortname, 用来在文章中启用 Disqus 评论系统
+shortname = "simenstack"

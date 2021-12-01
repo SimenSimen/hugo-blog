@@ -1,0 +1,6 @@
+
+# email = "alice@example.com"
+link = "https://alice.example.com"
+name = "Simen"
+[zh-tw]
+name = "Simen"

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title class="pjax-title">從0到100，自己架設部落格！ - SIMEN 城市</title><meta name="Description" content=""><meta property="og:title" content="從0到100，自己架設部落格！" />
+<meta property="og:description" content="前言 為什麼會想開始寫部落格呢？自從開始發現自己上了年紀，東西丟三落四之後。就想好好找個地方，把東西存起來，等到需要用的時候再回來翻。 期間找過" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/my-first-post/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-11-10T17:24:22+08:00" />
+<meta property="article:modified_time" content="2021-11-10T17:24:22+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="從0到100，自己架設部落格！"/>
+<meta name="twitter:description" content="前言 為什麼會想開始寫部落格呢？自從開始發現自己上了年紀，東西丟三落四之後。就想好好找個地方，把東西存起來，等到需要用的時候再回來翻。 期間找過"/>
+<meta name="application-name" content="SIMEN 城市">
+<meta name="apple-mobile-web-app-title" content="SIMEN 城市">
+
+<meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="/posts/my-first-post/" /><link rel="next" href="/posts/deploy-to-github-page/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "從0到100，自己架設部落格！",
+        "inLanguage": "zh-TW",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/posts\/my-first-post\/"
+        },"genre": "posts","wordcount":  1617 ,
+        "url": "\/posts\/my-first-post\/","datePublished": "2021-11-10T17:24:22+08:00","dateModified": "2021-11-10T17:24:22+08:00","publisher": {
+            "@type": "Organization",
+            "name": "Simen"},"author": {
+                "@type": "Person",
+                "name": "Simen"
+            },"description": ""
+    }
+    </script></head>
+
+<body header-desktop="" header-mobile=""><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme);}
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('' === 'light' || '' === 'dark' || '' === 'black') setTheme(''), saveTheme(''); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="SIMEN 城市">SIMEN 城市</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 標籤 </a><a class="menu-item" href="/categories/"> 分類 </a><span class="menu-item delimiter"></span><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="SIMEN 城市">SIMEN 城市</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">標籤</a><a class="menu-item" href="/categories/" title="">分類</a><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title"></h2>
+        <div class="toc-content" id="toc-content-auto"></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("pageStyle", "normal")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">從0到100，自己架設部落格！</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="/" title="Author" rel=" author" class="author">Simen</a>
+                </span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-11-10">2021-11-10</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2021-11-10">2021-11-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span></span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#前置作業">前置作業</a>
+      <ul>
+        <li><a href="#靜態頁面生產器">靜態頁面生產器</a></li>
+        <li><a href="#選擇-hugo-的理由">選擇 HUGO 的理由。</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#開始安裝">開始安裝</a></li>
+    <li><a href="#如果你是-windows-用戶">如果你是 Windows 用戶：</a>
+      <ul>
+        <li><a href="#使用-chocolatey">使用 Chocolatey</a></li>
+      </ul>
+    </li>
+    <li><a href="#建立專案">建立專案</a></li>
+    <li><a href="#加入網站主題">加入網站主題</a>
+      <ul>
+        <li><a href="#直接下載">直接下載</a></li>
+        <li><a href="#git-submodule-download">Git submodule download</a></li>
+        <li><a href="#啟動主題">啟動主題</a></li>
+      </ul>
+    </li>
+    <li><a href="#建立文章">建立文章</a></li>
+    <li><a href="#啟動本地服務">啟動本地服務</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="前言">前言</h1>
+<p>為什麼會想開始寫部落格呢？自從開始發現自己上了年紀，東西丟三落四之後。就想好好找個地方，把東西存起來，等到需要用的時候再回來翻。</p>
+<p>期間找過各種筆記軟體，如Notion、HackMD等等。在Survey的期間，不免又在想，我需要紀錄的東西，能幫助到某些有緣人也不一定。所以產生了自己架部落格的想法。於是就有了這個部落格啦。</p>
+<p>本篇將會手把手教你如何快速地安裝以及使用 <strong>Hugo</strong>！</p>
+<h2 id="前置作業">前置作業</h2>
+<p>在開始之前，我做了許多功課。先談談線上的服務。我試過下面幾個服務：</p>
+<ul>
+<li>HackMD</li>
+<li>Notion (本身還在使用)</li>
+<li>Medium</li>
+</ul>
+<!-- raw HTML omitted -->
+<h3 id="靜態頁面生產器">靜態頁面生產器</h3>
+<h3 id="選擇-hugo-的理由">選擇 HUGO 的理由。</h3>
+<p>看來看去，因為自己本身也想學GO，一看到這個專案 Github 星星數又多，二話不說就入坑啦。</p>
+<h1 id="安裝hugo">安裝Hugo</h1>
+<h2 id="開始安裝">開始安裝</h2>
+<p>安裝 <strong>HUGO</strong> 相當的簡單，根據官方文件，我們只需要依序執行指令，就能完成hugo的安裝。</p>
+<h2 id="如果你是-windows-用戶">如果你是 Windows 用戶：</h2>
+<p>如果你使用 windows ，你需要裝<strong>套件管理器</strong>來完成 <strong>Hugo</strong> 的安裝。為了完成接下來的步驟，我們必須先把Power shell開啟，並以管理員身分執行。</p>
+<p>以下的指令區塊都是在 Power shell完成。</p>
+<p><figure><a class="lightgallery" href="/images/hugo-tutorial-1/power-shell.png" title="power-shell" data-thumbnail="/images/hugo-tutorial-1/power-shell.png" data-sub-html="<h2>搜尋Power Shell，以管理員身分執行</h2><p>power-shell</p>">
+        <img
+            class="lazyload"
+            data-src="/images/hugo-tutorial-1/power-shell.png"
+            data-srcset="/images/hugo-tutorial-1/power-shell.png, /images/hugo-tutorial-1/power-shell.png 1.5x, /images/hugo-tutorial-1/power-shell.png 2x"
+            data-sizes="auto"
+            alt="/images/hugo-tutorial-1/power-shell.png"
+        />
+    </a><figcaption class="image-caption">搜尋Power Shell，以管理員身分執行</figcaption>
+    </figure></p>
+<p>官方提供以下兩個套件作為範例：</p>
+<h3 id="使用-chocolatey">使用 Chocolatey</h3>
+<p>安裝<a href="https://chocolatey.org/" target="_blank" rel="noopener noreffer">Chocolatey</a>(參考官網資訊，下方複製指令便可以安裝，貼進Power shell執行即可)後，輸入以下指令：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">choco install hugo -confirm
+</code></pre></div><p>接著等待安裝過程，就完成了。測試看看有沒有安裝成功：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">hugo version
+</code></pre></div><p>結果如下圖，出現版本號代表安裝成功！</p>
+<p><figure><a class="lightgallery" href="/images/hugo-tutorial-1/hugo-help.png" title="power-shell" data-thumbnail="/images/hugo-tutorial-1/hugo-help.png" data-sub-html="<h2>搜尋Power Shell，以管理員身分執行</h2><p>power-shell</p>">
+        <img
+            class="lazyload"
+            data-src="/images/hugo-tutorial-1/hugo-help.png"
+            data-srcset="/images/hugo-tutorial-1/hugo-help.png, /images/hugo-tutorial-1/hugo-help.png 1.5x, /images/hugo-tutorial-1/hugo-help.png 2x"
+            data-sizes="auto"
+            alt="/images/hugo-tutorial-1/hugo-help.png"
+        />
+    </a><figcaption class="image-caption">搜尋Power Shell，以管理員身分執行</figcaption>
+    </figure></p>
+<h2 id="建立專案">建立專案</h2>
+<p>安裝好Hugo的CLI套件之後，接著就可以開始建立自己的專案。先進入要放置專案的資料夾。接著輸入建立專案的指令。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /your/projects/path 
+hugo new site Myblog
+</code></pre></div><p>下完指令後，你會發現在資料夾底下，生成了一個<code>Myblog</code>的資料夾，我們的專案就建立完成了。</p>
+<p>建立好專案之後就可以開始進行專案設定，首先我們要做的是進入專案的路徑：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /your/projects/path/Myblog
+</code></pre></div><h2 id="加入網站主題">加入網站主題</h2>
+<p>當專案建立完成後，第一件事就是挑選主題。到 <a href="https://themes.gohugo.io/" target="_blank" rel="noopener noreffer">Hugo 的主題列表</a> 挑選一個符合情境需求的主題。</p>
+<p>以這個部落格為例，我選的是 <a href="https://themes.gohugo.io/themes/doit/" target="_blank" rel="noopener noreffer">DoIt</a> 主題。在列表中找到 DoIt 並點進去後如下圖：</p>
+<p><figure><a class="lightgallery" href="/images/hugo-tutorial-1/themes-banner.png" title="power-shell" data-thumbnail="/images/hugo-tutorial-1/themes-banner.png" data-sub-html="<h2>主題 DoIt 頁面</h2><p>power-shell</p>">
+        <img
+            class="lazyload"
+            data-src="/images/hugo-tutorial-1/themes-banner.png"
+            data-srcset="/images/hugo-tutorial-1/themes-banner.png, /images/hugo-tutorial-1/themes-banner.png 1.5x, /images/hugo-tutorial-1/themes-banner.png 2x"
+            data-sizes="auto"
+            alt="/images/hugo-tutorial-1/themes-banner.png"
+        />
+    </a><figcaption class="image-caption">主題 DoIt 頁面</figcaption>
+    </figure></p>
+<p>在挑的時候可以先看看線上 Demo 狀況如何，以及下方會描述這個主題的內容，可以多看看進行篩選。</p>
+<p>選好主題後，有兩種方式可以進行安裝：</p>
+<ul>
+<li>直接下載包</li>
+<li>git submodule download</li>
+</ul>
+<h3 id="直接下載">直接下載</h3>
+<p>直接下載<a href="https://github.com/HEIGE-PCloud/DoIt.git" target="_blank" rel="noopener noreffer">github</a>上的原始碼壓縮檔，解壓縮至 <code>themes/DoIt</code> 資料夾。</p>
+<h3 id="git-submodule-download">Git submodule download</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">git submodule add https://github.com/HEIGE-PCloud/DoIt.git themes/DoIt
+</code></pre></div><p>其實都是在做同一件事情，就是把主題的原始碼放進<code>themes</code>的資料夾內。而其中差別在於；直接下載的話，我們並不能追蹤主題的更新。如果用Github submodule的話，則可以保持主題在最新狀態。</p>
+<h3 id="啟動主題">啟動主題</h3>
+<p>打開位於專案目錄底下的<code>config.toml</code>，如下圖：</p>
+<p><figure><a class="lightgallery" href="/images/hugo-tutorial-1/config.toml.png" title="config.toml" data-thumbnail="/images/hugo-tutorial-1/config.toml.png" data-sub-html="<h2>基本設定</h2><p>config.toml</p>">
+        <img
+            class="lazyload"
+            data-src="/images/hugo-tutorial-1/config.toml.png"
+            data-srcset="/images/hugo-tutorial-1/config.toml.png, /images/hugo-tutorial-1/config.toml.png 1.5x, /images/hugo-tutorial-1/config.toml.png 2x"
+            data-sizes="auto"
+            alt="/images/hugo-tutorial-1/config.toml.png"
+        />
+    </a><figcaption class="image-caption">基本設定</figcaption>
+    </figure></p>
+<p>加上主題參數的設定：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-env" data-lang="env"><span class="c1"># 主題設定為 DoIt 主題</span>
+<span class="nv">theme</span> <span class="o">=</span> <span class="s2">&#34;DoIt&#34;</span>
+</code></pre></div><p>這樣主題就設定完成了！</p>
+<h2 id="建立文章">建立文章</h2>
+<p>設定玩主題後，我們可以開始為自己的部落格開始添加內容啦。首先，我們可以用下列的命令新增第一篇文章：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">hugo new posts/my-first-post.md
+</code></pre></div><p>指令完成後，注意<code>content/posts</code>資料夾，會出現剛剛指令所新增的檔案：<code>my-first-post.md</code>。內容如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">---
+title: &#34;My First Post&#34;
+date: 2019-03-26T08:47:11+01:00
+draft: true
+---
+</code></pre></div><ul>
+<li>
+<p><code>title</code> 屬性代表的是這篇文章的標題</p>
+</li>
+<li>
+<p><code>date</code> 屬性為建立時間</p>
+</li>
+<li>
+<p><code>draft</code> 屬性確認是否為手稿</p>
+</li>
+</ul>
+<p>相關設定我們可以先不用理他，直接在設定的底下開始寫文章。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">---
+title: &#34;My First Post&#34;
+date: 2019-03-26T08:47:11+01:00
+draft: true
+---
+
+<span class="gh"># 哈囉這是我第一篇文章
+</span><span class="gh"></span>
+內容內容。
+</code></pre></div><p>寫文章時採用的是 markdown 語法，具體用法可以參閱<a href="https://markdown.tw/" target="_blank" rel="noopener noreffer">這裡</a>。</p>
+<p>將剛剛編輯好的內容儲存，就完成文章的新增啦！。</p>
+<h2 id="啟動本地服務">啟動本地服務</h2>
+<p>現在，我們已經萬事具備了。只要將本地的服務啟動，就可以看到我們剛剛所建立的部落格。而只要執行下列指令：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">hugo server -D
+</code></pre></div><p>沒錯，就這麼簡單，終端機會將網站的網址列印在畫面上，以我的電腦為例是<code>http://localhost:8000</code>。複製網址，打開Chrome瀏覽器，貼上網址就可以看到網站啦！是不是非常容易呢。</p>
+</div>
+
+        <div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span></span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="#" onclick="return false;" title=" Twitter" data-sharer="twitter" data-url="/posts/my-first-post/" data-title="從0到100，自己架設部落格！"><i class="fab fa-twitter fa-fw"></i></a><a href="#" onclick="return false;" title=" Facebook" data-sharer="facebook" data-url="/posts/my-first-post/"><i class="fab fa-facebook-square fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();"></a></span>&nbsp;|&nbsp;<span><a href="/"></a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/posts/deploy-to-github-page/" class="next" rel="next" title="將部落格部署 至 Github Page">將部落格部署 至 Github Page<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer"></a></span></div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div class="assets"><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/topbar/topbar.min.js"></script><script type="text/javascript" src="/lib/pjax/pjax.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></div>
+
+<div class="pjax-assets"><script type="text/javascript" src="https://simenstack.disqus.com/embed.js" defer></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"","maxShownLines":10},"comment":{},"sharerjs":true};</script></div>
+</body>
+
+</html>
